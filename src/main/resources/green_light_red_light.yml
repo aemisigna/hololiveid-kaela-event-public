@@ -1,0 +1,99 @@
+games:
+  squid_game:
+    maxTeams: 4
+    maxPlayersPerTeam: 5
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -27.5
+        y: 73
+        z: 12.012
+        pitch: 0.0
+        yaw: 90.0
+      arena:
+        - ==: org.bukkit.Location
+          world: main_world
+          x: -49.0
+          y: 73
+          z: 2.015
+          pitch: 0.0
+          yaw: 90
+        - ==: org.bukkit.Location
+          world: main_world
+          x: -49.0
+          y: 73
+          z: 21.864
+          pitch: 0.0
+          yaw: 90
+      guns:
+        - ==: org.bukkit.Location
+          world: main_world
+          x: -127
+          y: 91
+          z: -8
+          pitch: 0.0
+          yaw: 90
+        - ==: org.bukkit.Location
+          world: main_world
+          x: -127
+          y: 91
+          z: 31
+          pitch: 0.0
+          yaw: 90
+        - ==: org.bukkit.Location
+          world: main_world
+          x: -94
+          y: 91
+          z: 31
+          pitch: 0.0
+          yaw: 90
+        - ==: org.bukkit.Location
+          world: main_world
+          x: -94
+          y: 91
+          z: -8
+          pitch: 0.0
+          yaw: 90
+    galon-chan:
+      ==: org.bukkit.Location
+      world: main_world
+      x: -138.5
+      y: 79.46135
+      z: 11.5
+      pitch: 0.0
+      yaw: -90
+    start:
+      pos1:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -57
+        y: 74
+        z: -7
+        pitch: 0.0
+        yaw: 0.0
+      pos2:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -57
+        y: 74
+        z: 30
+        pitch: 0.0
+        yaw: 0.0
+    finish:
+      pos1:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -137
+        y: 73
+        z: 31
+        pitch: 0.0
+        yaw: 0.0
+      pos2:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -147
+        y: 87
+        z: -8
+        pitch: 0.0
+        yaw: 0.0

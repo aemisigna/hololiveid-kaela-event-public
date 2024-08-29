@@ -1,0 +1,64 @@
+games:
+  tower:
+    maxTeams: 2
+    maxPlayersPerTeam: 1
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: main_world
+        x: 2
+        y: 73
+        z: 73.0
+        pitch: 0.0
+        yaw: 180
+    center:
+      ==: org.bukkit.Location
+      world: main_world
+      x: 2.0
+      y: 73
+      z: 0.3
+      pitch: 0.0
+      yaw: 90.0
+    head:
+      ==: org.bukkit.Location
+      world: main_world
+      x: 2.0
+      y: 82.00351
+      z: -3.5
+      pitch: 0.0
+      yaw: 180
+    spots:
+      1:
+        gamble:
+          ==: org.bukkit.Location
+          world: main_world
+          x: -0.5
+          y: 74.55
+          z: 0.4
+          pitch: 0.0
+          yaw: 0.0
+        spawn:
+          ==: org.bukkit.Location
+          world: main_world
+          x: -0.5
+          y: 73
+          z: 3.0
+          pitch: 0.0
+          yaw: 180.0
+      2:
+        gamble:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 4.5
+          y: 74.55
+          z: 0.4
+          pitch: 0.0
+          yaw: 0.0
+        spawn:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 4.5
+          y: 73.0
+          z: 3.0
+          pitch: 0.0
+          yaw: 180.0

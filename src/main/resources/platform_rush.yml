@@ -1,0 +1,21 @@
+games:
+  platform_rush:
+    maxTeams: 4
+    maxPlayersPerTeam: 1
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: main_world
+        x: 33.2
+        y: 70
+        z: 0.5
+        pitch: 0.0
+        yaw: 90.0
+      game:
+        ==: org.bukkit.Location
+        world: main_world
+        x: 0.5
+        y: 65
+        z: 0.5
+        pitch: 0.0
+        yaw: 0.0

@@ -1,0 +1,64 @@
+package com.covercorp.kaelaevent.minigame.games.reflex.arena.properties;
+
+import com.covercorp.kaelaevent.minigame.games.reflex.arena.ReflexArena;
+import com.covercorp.kaelaevent.minigame.games.reflex.arena.state.ReflexMatchState;
+import com.covercorp.kaelaevent.minigame.games.reflex.arena.state.ReflexRoundState;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter(AccessLevel.PUBLIC)
+@Setter(AccessLevel.PUBLIC)
+public final class ReflexMatchProperties {
+    // Used por start items
+    private int startingTime;
+    private int startingCountdown;
+    private boolean starting;
+
+    // Used for the time before talents can break snow blocks
+    private int preLobbyTime;
+    private int preLobbyCountdown;
+    private boolean preLobby;
+
+    private int preLobbyTaskId;
+    private int startingTaskId;
+
+    private int arenaTickTaskId;
+    private int arenaTimeTaskId;
+    private int fireworkTaskId;
+
+    private int roundsToWin;
+
+    private ReflexRoundState roundState;
+    private int pressCooldown;
+
+    public ReflexMatchProperties(final ReflexArena arena) {
+        startingTime = 5;
+        startingCountdown = startingTime;
+
+        preLobbyTime = 10;
+        preLobbyCountdown = preLobbyTime;
+
+        starting = false;
+
+        roundsToWin = 5;
+
+        roundState = ReflexRoundState.WAITING;
+        pressCooldown = 5;
+    }
+
+    public void resetTimer() {
+        setStartingTime(5);
+        setStarting(false);
+        setStartingTaskId(0);
+        setStartingCountdown(startingTime);
+
+        setPreLobbyTime(10);
+        setPreLobby(false);
+        setPreLobbyTaskId(0);
+        setPreLobbyCountdown(preLobbyTime);
+
+        setRoundState(ReflexRoundState.WAITING);
+        setPressCooldown(5);
+    }
+}

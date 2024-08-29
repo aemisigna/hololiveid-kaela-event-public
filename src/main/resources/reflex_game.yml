@@ -1,0 +1,72 @@
+games:
+  reflex:
+    maxTeams: 2
+    maxPlayersPerTeam: 1
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: main_world
+        x: 24.5
+        y: 66
+        z: -2.5
+        pitch: 0.0
+        yaw: 90.0
+    center:
+      ==: org.bukkit.Location
+      world: main_world
+      x: -1.5
+      y: 66
+      z: -2.5
+      pitch: 0.0
+      yaw: 90.0
+    spots:
+      1:
+        chair:
+          ==: org.bukkit.Location
+          world: main_world
+          x: -1.5
+          y: 66.5
+          z: -5.5
+          pitch: 0.0
+          yaw: 0.0
+        button:
+          ==: org.bukkit.Location
+          world: main_world
+          x: -1.5
+          y: 66.5
+          z: -4.2
+          pitch: 0.0
+          yaw: 0.0
+        screen:
+          ==: org.bukkit.Location
+          world: main_world
+          x: -1.5
+          y: 67.5
+          z: -3.450
+          pitch: 0.0
+          yaw: 0.0
+      2:
+        chair:
+          ==: org.bukkit.Location
+          world: main_world
+          x: -1.5
+          y: 66.5
+          z: 0.5
+          pitch: 0.0
+          yaw: 180.0
+        button:
+          ==: org.bukkit.Location
+          world: main_world
+          x: -1.5
+          y: 66.5
+          z: -0.8
+          pitch: 0.0
+          yaw: 180.0
+        screen:
+          ==: org.bukkit.Location
+          world: main_world
+          x: -1.5
+          y: 67.5
+          z: -1.550
+          pitch: 0.0
+          yaw: 180.0

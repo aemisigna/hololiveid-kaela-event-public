@@ -1,0 +1,36 @@
+games:
+  tug:
+    maxTeams: 2 # MUST be two teams or the equivalent of the spawnpoints
+    maxPlayersPerTeam: 1
+    center:
+      ==: org.bukkit.Location
+      world: main_world
+      x: -38.5
+      y: 68
+      z: -1.5
+      pitch: 0.0
+      yaw: 0.0
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: main_world
+        x: 0.5
+        y: 70
+        z: 0.0
+        pitch: 0.0
+        yaw: 90.0
+    game-spawns: # Enough for two teams
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -38.5
+        y: 67
+        z: 20.5
+        pitch: 0.0
+        yaw: 180
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -38.5
+        y: 67
+        z: -23.5
+        pitch: 0.0
+        yaw: 0.0

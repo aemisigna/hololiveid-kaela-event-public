@@ -1,0 +1,72 @@
+games:
+  basketball:
+    maxTeams: 4
+    maxPlayersPerTeam: 1
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -0.5
+        y: 79
+        z: 36.5
+        pitch: 0.0
+        yaw: 180.0
+      game:
+        ==: org.bukkit.Location
+        world: main_world
+        x: 6.6
+        y: 65
+        z: 0.6
+        pitch: 0.0
+        yaw: 90.0
+    hitbox:
+      ==: org.bukkit.Location
+      world: main_world
+      x: -10.648
+      y: 70.16392
+      z: 0.526
+      pitch: 0.0
+      yaw: 0.0
+    ball-spawn-points:
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -6.5
+        y: 65.5
+        z: -10.5
+        pitch: 0.0
+        yaw: 90.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -2.5
+        y: 65.5
+        z: -12.5
+        pitch: 0.0
+        yaw: 90.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -7.5
+        y: 65.5
+        z: -11.5
+        pitch: 0.0
+        yaw: 90.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: 7.5
+        y: 65.5
+        z: 12.5
+        pitch: 0.0
+        yaw: 90.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: 2.5
+        y: 65.5
+        z: -13.5
+        pitch: 0.0
+        yaw: 90.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -6.5
+        y: 65.5
+        z: 11.5
+        pitch: 0.0
+        yaw: 90.0

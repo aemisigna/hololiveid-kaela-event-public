@@ -1,0 +1,158 @@
+games:
+  glass_bridge:
+    maxTeams: 1
+    maxPlayersPerTeam: 3
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -16.5
+        y: 108
+        z: -215.5
+        pitch: 0.0
+        yaw: -90.0
+      arena:
+        ==: org.bukkit.Location
+        world: main_world
+        x: 24.5
+        y: 105
+        z: -179.5
+        pitch: 0.0
+        yaw: -180
+    bridge:
+      1:
+        left:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 21.5
+          y: 105
+          z: -198.5
+          pitch: 0.0
+          yaw: 0.0
+        right:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 27.5
+          y: 105
+          z: -198.5
+          pitch: 0.0
+          yaw: 0.0
+      2:
+        left:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 21.5
+          y: 105
+          z: -203.5
+          pitch: 0.0
+          yaw: 0.0
+        right:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 27.5
+          y: 105
+          z: -203.5
+          pitch: 0.0
+          yaw: 0.0
+      3:
+        left:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 21.5
+          y: 105
+          z: -208.5
+          pitch: 0.0
+          yaw: 0.0
+        right:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 27.5
+          y: 105
+          z: -208.5
+          pitch: 0.0
+          yaw: 0.0
+      4:
+        left:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 21.5
+          y: 105
+          z: -213.5
+          pitch: 0.0
+          yaw: 0.0
+        right:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 27.5
+          y: 105
+          z: -213.5
+          pitch: 0.0
+          yaw: 0.0
+      5:
+        left:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 21.5
+          y: 105
+          z: -218.5
+          pitch: 0.0
+          yaw: 0.0
+        right:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 27.5
+          y: 105
+          z: -218.5
+          pitch: 0.0
+          yaw: 0.0
+      6:
+        left:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 21.5
+          y: 105
+          z: -223.5
+          pitch: 0.0
+          yaw: 0.0
+        right:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 27.5
+          y: 105
+          z: -223.5
+          pitch: 0.0
+          yaw: 0.0
+      7:
+        left:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 21.5
+          y: 105
+          z: -228.5
+          pitch: 0.0
+          yaw: 0.0
+        right:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 27.5
+          y: 105
+          z: -228.5
+          pitch: 0.0
+          yaw: 0.0
+    finish:
+      1:
+        ==: org.bukkit.Location
+        world: main_world
+        x: 34.999
+        y: 117
+        z: -232.035
+        pitch: 0.0
+        yaw: 0.0
+      2:
+        ==: org.bukkit.Location
+        world: main_world
+        x: 13.023
+        y: 105
+        z: -251.966
+        pitch: 0.0
+        yaw: 0.0

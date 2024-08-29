@@ -1,0 +1,255 @@
+games:
+  lava:
+    maxTeams: 2 # MUST be two teams or the equivalent of the spawnpoints
+    maxPlayersPerTeam: 1
+    center:
+      ==: org.bukkit.Location
+      world: main_world
+      x: -38.5
+      y: 68
+      z: -1.5
+      pitch: 0.0
+      yaw: 0.0
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: main_world
+        x: 5.5
+        y: 70
+        z: 0.5
+        pitch: 0.0
+        yaw: 45.0
+      arena:
+        ==: org.bukkit.Location
+        world: main_world
+        x: 22.5
+        y: 70
+        z: 0.5
+        pitch: 0.0
+        yaw: 90.0
+    slots:
+      1:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 16
+          y: 69
+          z: -6
+          pitch: 0.0
+          yaw: 0.0
+      2:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 16
+          y: 69
+          z: -3
+          pitch: 0.0
+          yaw: 0.0
+      3:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 16
+          y: 69
+          z: 0
+          pitch: 0.0
+          yaw: 0.0
+      4:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 16
+          y: 69
+          z: 3
+          pitch: 0.0
+          yaw: 0.0
+      5:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 16
+          y: 69
+          z: 6
+          pitch: 0.0
+          yaw: 0.0
+      6:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 19
+          y: 69
+          z: 6
+          pitch: 0.0
+          yaw: 0.0
+      7:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 19
+          y: 69
+          z: 3
+          pitch: 0.0
+          yaw: 0.0
+      8:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 19
+          y: 69
+          z: 0
+          pitch: 0.0
+          yaw: 0.0
+      9:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 19
+          y: 69
+          z: -3
+          pitch: 0.0
+          yaw: 0.0
+      10:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 19
+          y: 69
+          z: -6
+          pitch: 0.0
+          yaw: 0.0
+      11:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 22
+          y: 69
+          z: -6
+          pitch: 0.0
+          yaw: 0.0
+      12:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 22
+          y: 69
+          z: -3
+          pitch: 0.0
+          yaw: 0.0
+      13:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 22
+          y: 69
+          z: 0
+          pitch: 0.0
+          yaw: 0.0
+      14:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 22
+          y: 69
+          z: 3
+          pitch: 0.0
+          yaw: 0.0
+      15:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 22
+          y: 69
+          z: 6
+          pitch: 0.0
+          yaw: 0.0
+      16:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 25
+          y: 69
+          z: 6
+          pitch: 0.0
+          yaw: 0.0
+      17:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 25
+          y: 69
+          z: 3
+          pitch: 0.0
+          yaw: 0.0
+      18:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 25
+          y: 69
+          z: 0
+          pitch: 0.0
+          yaw: 0.0
+      19:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 25
+          y: 69
+          z: -3
+          pitch: 0.0
+          yaw: 0.0
+      20:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 25
+          y: 69
+          z: -6
+          pitch: 0.0
+          yaw: 0.0
+      21:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 28
+          y: 69
+          z: -6
+          pitch: 0.0
+          yaw: 0.0
+      22:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 28
+          y: 69
+          z: -3
+          pitch: 0.0
+          yaw: 0.0
+      23:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 28
+          y: 69
+          z: 0
+          pitch: 0.0
+          yaw: 0.0
+      24:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 28
+          y: 69
+          z: 3
+          pitch: 0.0
+          yaw: 0.0
+      25:
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 28
+          y: 69
+          z: 6
+          pitch: 0.0
+          yaw: 0.0

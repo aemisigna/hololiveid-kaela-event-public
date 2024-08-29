@@ -1,0 +1,90 @@
+games:
+  zombie:
+    maxTeams: 2
+    maxPlayersPerTeam: 1
+    shoot-zone:
+      pos1:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -6.3
+        y: 95
+        z: 48.150
+        pitch: 0.0
+        yaw: 0.0
+      pos2:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -32.7
+        y: 98
+        z: 44.3
+        pitch: 0.0
+        yaw: 0.0
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -16
+        y: 108
+        z: 65.295
+        pitch: 0.0
+        yaw: -90.0
+      arena:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -20
+        y: 95
+        z: 46
+        pitch: 0.0
+        yaw: 0.0
+      zombies:
+        1:
+          point1:
+            ==: org.bukkit.Location
+            world: main_world
+            x: -4.382
+            y: 89
+            z: 60.5
+            pitch: 0.0
+            yaw: 90
+          point2:
+            ==: org.bukkit.Location
+            world: main_world
+            x: -35.700
+            y: 89
+            z: 60.5
+            pitch: 0.0
+            yaw: 90
+        2:
+          point1:
+            ==: org.bukkit.Location
+            world: main_world
+            x: -35.7
+            y: 94
+            z: 69.5
+            pitch: 0.0
+            yaw: 90
+          point2:
+            ==: org.bukkit.Location
+            world: main_world
+            x: -4.5
+            y: 94
+            z: 69.5
+            pitch: 0.0
+            yaw: 90
+        3:
+          point1:
+            ==: org.bukkit.Location
+            world: main_world
+            x: -3.5
+            y: 99
+            z: 78.5
+            pitch: 0.0
+            yaw: 90
+          point2:
+            ==: org.bukkit.Location
+            world: main_world
+            x: -35.5
+            y: 99
+            z: 78.5
+            pitch: 0.0
+            yaw: 90

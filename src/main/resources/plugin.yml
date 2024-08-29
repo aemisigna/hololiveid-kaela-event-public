@@ -1,0 +1,10 @@
+name: KaelaEvent
+author: COVER Corporation
+version: ${project.version}
+main: com.covercorp.kaelaevent.KaelaEvent
+api-version: 1.20
+depend: [ProtocolLib]
+commands:
+  back:
+    aliases: [hub, lobby]
+  chooseteam:

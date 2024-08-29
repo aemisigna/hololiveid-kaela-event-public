@@ -1,0 +1,114 @@
+games:
+  trident_race:
+    maxTeams: 2
+    maxPlayersPerTeam: 1
+    center:
+      ==: org.bukkit.Location
+      world: main_world
+      x: -24.5
+      y: 71
+      z: 1.5
+      pitch: 0.0
+      yaw: 0.0
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: main_world
+        x: 8.5
+        y: 74
+        z: 1.5
+        pitch: 0.0
+        yaw: 90.0
+      arena:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -22.5
+        y: 71
+        z: 1.5
+        pitch: 0.0
+        yaw: 90.0
+    targets:
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -57.5
+        y: 77
+        z: 1.5
+        pitch: 0.0
+        yaw: 0.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -53.3
+        y: 79.6
+        z: 11.2
+        pitch: 0.0
+        yaw: 0.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -50.108
+        y: 84
+        z: 19.016
+        pitch: 0.0
+        yaw: 0.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -43.158
+        y: 76
+        z: 23.036
+        pitch: 0.0
+        yaw: 0.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -35.636
+        y: 80
+        z: 33.202
+        pitch: 0.0
+        yaw: 0.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -27.741
+        y: 79
+        z: 34.355
+        pitch: 0.0
+        yaw: 0.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -57.323
+        y: 76
+        z: -1.524
+        pitch: 0.0
+        yaw: 0.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -52.455
+        y: 86
+        z: -14.522
+        pitch: 0.0
+        yaw: 0.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -45.945
+        y: 80
+        z: -22.196
+        pitch: 0.0
+        yaw: 0.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -41.133
+        y: 79
+        z: -28.747
+        pitch: 0.0
+        yaw: 0.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -32.585
+        y: 81
+        z: -34.403
+        pitch: 0.0
+        yaw: 0.0
+      - ==: org.bukkit.Location
+        world: main_world
+        x: -59.733
+        y: 94
+        z: 8.390
+        pitch: 0.0
+        yaw: 0.0

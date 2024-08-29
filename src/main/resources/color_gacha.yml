@@ -1,0 +1,85 @@
+games:
+  color_gacha:
+    maxTeams: 4
+    maxPlayersPerTeam: 1
+    spawn-points:
+      lobby:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -54
+        y: 76
+        z: 0.5
+        pitch: 0.0
+        yaw: -90.0
+      scenario-pressing:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -5.5
+        y: 70
+        z: 0.5
+        pitch: 0.0
+        yaw: -90.0
+      scenario-waiting:
+        ==: org.bukkit.Location
+        world: main_world
+        x: -5.5
+        y: 76
+        z: 0.5
+        pitch: 0.0
+        yaw: -90.0
+    buttons:
+      stand_white:
+        identifier: 'stand_white'
+        color: 'WHITE'
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: -0.5
+          y: 70
+          z: -4.5
+          pitch: 0.0
+          yaw: 90.0
+      stand_green:
+        identifier: 'stand_green'
+        color: 'GREEN'
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 1.5
+          y: 70
+          z: -2.5
+          pitch: 0.0
+          yaw: 90.0
+      stand_yellow:
+        identifier: 'stand_yellow'
+        color: 'YELLOW'
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 2.5
+          y: 70
+          z: 0.5
+          pitch: 0.0
+          yaw: 90.0
+      stand_purple:
+        identifier: 'stand_purple'
+        color: 'PURPLE'
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: 1.5
+          y: 70
+          z: 3.5
+          pitch: 0.0
+          yaw: 90.0
+      stand_red:
+        identifier: 'stand_red'
+        color: 'RED'
+        location:
+          ==: org.bukkit.Location
+          world: main_world
+          x: -0.5
+          y: 70
+          z: 5.5
+          pitch: 0.0
+          yaw: 90.0
